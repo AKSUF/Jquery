@@ -1,9 +1,12 @@
+// $(document).ready(function() {
+//     var a = $('#box').html();
+//     console.log(a);
+// });
 $(document).ready(function() {
-    $('#box').scroll(function() {
-        console.log("You are scrolling");
-    })
-
-    $(window).resize(function() {
-        console.log("You are resizing window");
+    $('#sform').submit(function() {
+        var name = $('sname').val();
+        var classname = $('sclass').val();
+        var country = $('scountry').val();
+        alert("Hello" + "name" + name + "......" + classname + country);
     })
 });
