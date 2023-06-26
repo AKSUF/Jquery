@@ -5,22 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .test{
-            width: 50%;
-            margin-top: 4px;
-            margin: auto;
-            border:solid 2px red;
-            border-top-left-radius: 2px;
-        }
-    
+      .level{
+        margin-top: 5px;
+      }
+      .result{
+        border: 5px solid green;
+      }
     </style>
 </head>
 <body>
-    <h1>Abu Sufian:A man in the world</h1>
-    <div id="box" class="test">
-        <h2>Test box</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi recusandae saepe, at quod quas itaque quisquam nesciunt officia sit velit perspiciatis vero illum doloribus nemo nostrum repellendus doloremque iure a!</p>
+   <div class="form" id="sform">
+<form action="" method="post">
+    <div class="level mt-4">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" name="sname" id="sname">
     </div>
+    <div class="level mt-5">
+    <label for="name">Class</label>
+    <input type="text" class="form-control" name="sclass" id="sclass">
+    </div>
+    <div class="level mt-5">
+    <label for="name">Country</label>
+    <select name="scountry" id="scountry" class="form-control">
+        <option value="dhaka">Dhaka</option>
+        <option value="dhaka">Delihi</option>
+        <option value="dhaka">Sunamgonj</option>
+    </select>
+    </div>
+<div>
+    <input type="submit" value="Submit" class="m-auto">
+</div>
+</form>
+
+   </div>
+
+<div class="result" id="result"></div>
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="../JS/index.js"></script>
