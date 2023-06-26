@@ -12,11 +12,13 @@
 </head>
 <body>
 <div class="box" id="box">
-    <h1>hello firend</h1>
-</div>
+        <h1>hello friend</h1>
+    </div>
+    <br>
+    <button id="clickbutton">Set Value</button>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="../JS/index.js"></script>
-
 </body>
 </html>
