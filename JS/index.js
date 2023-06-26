@@ -1,25 +1,15 @@
 $(document).ready(function() {
-    $('#box').click(function() {
-        $('#box').css('background-color', 'green');
-    });
-});
+    $('body').keypress(function() {
+        $(this).css('background-color', '#776D16')
+    })
+})
 $(document).ready(function() {
-    $('#box').dblclick(function() {
-        $('#box').css('background-color', 'orange');
-    });
-});
+    $('body').keyup(function() {
+        $(this).css('background-color', '#581677')
+    })
+})
 $(document).ready(function() {
-    $('#box').contextmenu(function() {
-        $('#box').css('background-color', 'blue');
-    });
-});
-$(document).ready(function() {
-    $('#box').mouseenter(function() {
-        $('#box').css('background-color', '#646A3E');
-    });
-});
-$(document).ready(function() {
-    $('#box').mouseleave(function() {
-        $('#box').css('background-color', '#691677');
-    });
-});
+    $('body').keydown(function() {
+        $(this).css('background-color', '#581677')
+    })
+})
