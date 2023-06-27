@@ -1,17 +1,13 @@
 $(document).ready(function() {
-    $('#positionBtn').click(function() {
-        const a = $('#box p').position();
-        console.clear();
+    $(window).scroll(function() {
+        $('#box2').html("");
+        $('#box2').append("Top:" + $(window).scrollTop());
+        $('#box2').append("<br>Left" + $(window).scrollLeft());
+        const a = ($(window).scrollTop());
+        const b = ($(window).scrollLeft());
         console.log(a);
-        console.log("Top" + a.top);
-        console.log("Left" + a.left);
-    })
-
-    $('#offsetBtn').click(function() {
-        $("#box").offset({ top: 100, left: 100 });
-        const b = $('#box p').offset();
-
-        console.clear();
         console.log(b);
     })
+
+
 });
