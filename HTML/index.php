@@ -33,12 +33,11 @@
 <body>
 <h1>Jquery Filtering Methods</h1>
 <div id="box">
-    <h1>Test Box</h1>
-<p>Lorem, ipsum.</p>
+    <h1>Some Heading</h1>
+ <p>Lorem ipsum dolor sit.</p>
+ <p>Lorem ipsum dolor sit.</p>
+ <p>Lorem ipsum dolor sit.</p>
 
-<p>Lorem, ipsum dolor.</p>
-<input type="submit" value="Submit">
-<button type="submit" value="Submit">Submit</button>
 </div>
 <br><br>
 <h2></h2>
