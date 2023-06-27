@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('#replaceBtn').click(function() {
-        var a = $('#box p:nth-child(2)').replaceWith("Yahoo baba");
-        console.log(a);
+    $('#wrapBtn').click(function() {
+        $('#box p').wrap('<div id="boxbg"> </div>')
     });
+
 });

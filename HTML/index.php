@@ -12,21 +12,21 @@
             border: 6px solid green;
             margin-top: 5px;
         }
-        .boxbg {
+        #boxbg {
             background-color: orange;
         }
     </style>
 </head>
 <body>
-    <div class="box" id="box">
-        <h2>Test2</h2>
+    <div class="box" id="box" >
+       
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
    
-    <button id="replaceBtn">Replace</button>
-
+    <button id="wrapBtn">Wrap</button>
+    <button id="unwrapBtn">UnWrap</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>
 </body>
