@@ -7,6 +7,9 @@
     <style>
         .box {
             border: 6px solid green;
+            width: 50%;
+            height: 50%;
+            position: relative;
         }
         .box2 {
             border: 6px solid green;
@@ -27,9 +30,8 @@
 <div class="box2" id="box2"></div>
     </div>
   <div class="topic"></div>
-    <button id="slideupBtn">SlideUp</button>
-    <button id="slidedownBtn">SlideDown</button>
-    <button id="slidetoggleBtn">SlideToggle</button>
+    <button id="animatedBtn">AnimatedBTn</button>
+   
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>

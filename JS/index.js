@@ -1,19 +1,23 @@
 $(document).ready(function() {
-    $('#slideupBtn').click(function() {
-        $('#box').slideUp(1000, function() {
-            $('#box2').html('<h1>box is fade in</h1>');
-        });
-    });
+    $('#animatedBtn').click(function() {
+        // $('#box').animate({
+        //     left: '150px',
+        //     width: 'toggle',
+        //     fontSize: '25px',
+        //     borderWidth: '5px',
+        // });
 
-    $('#slidedownBtn').click(function() {
-        $('#box').slideDown(1000, function() {
-            $('#box2').html('<h1>box is fade out</h2>');
+        $('#box').animate({
+            left: '150px',
+            fontSize: '30px',
+        }, 3000);
+        $('#box').animate({
+            top: '150px',
         });
-    });
-    $('#slidetoggleBtn').click(function() {
-        $('#box').slideToggle(1000, function() {
-            $('#box2').html('<h1>box is toggle</h1>');
+        $('#box').animate({
+            width: '250px',
         });
-    });
+
+    })
 
 });
