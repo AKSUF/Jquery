@@ -1,7 +1,13 @@
 $(document).ready(function() {
-    $('#clickbutton').click(function() {
-        $('#box h1').text("Hello Yahoo baba");
-        $('#box').append('<p>This is new text</p>');
-        $('#box h1').attr('class', 'red');
-    });
+    $('#addbutton').click(function() {
+        $('#box').addClass("first");
+    })
+
+    $('#removebutton').click(function() {
+        $('#box').removeClass("first");
+    })
+    $('#togglebutton').click(function() {
+        $('#box').toggleClass("second");
+    })
+
 });
