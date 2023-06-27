@@ -1,13 +1,11 @@
 $(document).ready(function() {
-    $(window).scroll(function() {
-        $('#box2').html("");
-        $('#box2').append("Top:" + $(window).scrollTop());
-        $('#box2').append("<br>Left" + $(window).scrollLeft());
-        const a = ($(window).scrollTop());
-        const b = ($(window).scrollLeft());
-        console.log(a);
+    $('#hasclassBtn').click(function() {
+        const b = $('#box').hasClass('box');
         console.log(b);
-    })
-
-
+        if (b == true) {
+            $('.topic').html("<h1>how is going your day</h1>")
+        } else {
+            $('.topic').html("<h1>so sorry, no box class found</h1>")
+        }
+    });
 });
