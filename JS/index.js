@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('#clone').click(function() {
-        $('#box h2').clone().prependTo('#box2');
-        $('#box p').clone().appendTo('#box2');
+    $('#replaceBtn').click(function() {
+        var a = $('#box p:nth-child(2)').replaceWith("Yahoo baba");
+        console.log(a);
     });
 });
