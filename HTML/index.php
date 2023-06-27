@@ -8,6 +8,10 @@
 .box{
     border: 6px solid green;
 }
+.box2{
+    border: 6px solid green;
+    margin-top: 5px;
+}
 .boxbg {
   background-color: orange;
 }
@@ -16,13 +20,12 @@
 </head>
 <body>
 <div class="box" id="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quas nisi soluta voluptas, dolor itaque dicta vel, a voluptatem voluptates atque reiciendis sequi blanditiis nam nostrum qui nesciunt veritatis assumenda.</p>
-        <h2>Hi how you do work</h2>
-</div>
-    <br>
- 
-    <button id="emptybtn">Append</button>
-    <button id="removebtn">Prepend</button>
+        <h2>Title</h2>
+        <p>Content</p>
+    </div>
+    <div id="box2" class="box2"><h1>how it works</h1></div>
+    <button id="clone">Clone and Append</button>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="../JS/index.js"></script>
