@@ -33,9 +33,12 @@
 <body>
 <h1>Jquery Filtering Methods</h1>
 <div id="box">
-<a href="https://github.com/AKSUF/Jquery.git" id="result">Yahoobaba.com</a>
-<br><br>
-<a href="https://github.com/AKSUF/Jquery.git">Yahoobaba web</a>
+    <h1>Test Box</h1>
+<p>Lorem, ipsum.</p>
+
+<p>Lorem, ipsum dolor.</p>
+<input type="submit" value="Submit">
+<button type="submit" value="Submit">Submit</button>
 </div>
 <br><br>
 <h2></h2>
