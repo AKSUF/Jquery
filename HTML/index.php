@@ -7,7 +7,7 @@
     <style>
         .box {
             border: 6px solid green;
-            width: 50%;
+            width: 150px;
             height: 50%;
             position: relative;
         }
@@ -31,7 +31,7 @@
     </div>
   <div class="topic"></div>
     <button id="animatedBtn">AnimatedBTn</button>
-   
+    <button id="stopBtn">Stop</button>
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>
