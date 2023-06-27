@@ -15,7 +15,7 @@
             background-color: blue;
             border: 2px solid navy;
         }
-        #result{
+        #result {
             background-color: blanchedalmond;
             margin: auto;
             width: 30%;
@@ -25,11 +25,9 @@
 
 <body>
     <h1>Jquery Filtering Methods</h1>
- <div id="result">
-<h1>hello</h1>
- </div>
-
-
+    <div id="result">
+        <h1>hello</h1>
+    </div>
 
     <div id="box">hi</div>
 
