@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $('#box').on("click dblclick mouseover mouseout", function(event) {
-        $('#result h1').html("Event: " + event.type);
+    $('#box').on("mouseover mouseout mousedown", function(event) {
+        $('h2').html(event.type + ":" + event.which);
     });
+    $('#inputbox').on("keydown", function() {
+        $('h2').html(event.type + ":" + event.which);
+    })
 });
