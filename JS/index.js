@@ -1,11 +1,24 @@
 $(document).ready(function() {
-    $('#wrapallBtn').click(function() {
-        var a = $('#box p').wrapAll('<div id="boxbg"> </div>');
-        console.log(a);
+    $('#width').click(function() {
+        const a = $('#box').width();
+        const b = $('#box').innerWidth();
+        const c = $('#box').outerWidth();
+        const d = $('#box').outerWidth(true);
+        console.clear();
+        console.log("width of box" + "" + a);
+        console.log("innerwidth of box" + "" + b);
+        console.log("outerwidth of box" + "" + c);
+        console.log("outerwidth(true) of box" + "" + d);
     });
-
-    $('#unwrapinnerBtn').click(function() {
-        var b = $('#box h1').wrapInner('<div id="boxbg"> </div>');
-        console.log(b);
-    });
+    $('#height').click(function() {
+        const a = $('#box').height();
+        const b = $('#box').innerHeight();
+        const c = $('#box').outerHeight();
+        const d = $('#box').outerHeight(true);
+        console.clear();
+        console.log("height of box" + "" + a);
+        console.log("innerheight of box" + "" + b);
+        console.log("outerheight of box" + "" + c);
+        console.log("outerheight(true) of box" + "" + d);
+    })
 });
