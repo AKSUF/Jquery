@@ -16,10 +16,23 @@
 </head>
 <body>
 <div class="box" id="box">
-        <h1>hello friend</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quas nisi soluta voluptas, dolor itaque dicta vel, a voluptatem voluptates atque reiciendis sequi blanditiis nam nostrum qui nesciunt veritatis assumenda.</p>
     </div>
     <br>
-    <button id="button" type="submit">Change</button>
+    <button id="append" type="submit">Change</button>
+    <button id="prepend" type="submit">Change</button>
+
+<div class="table">
+    <ul id="ul">
+        <li id="li">Mytab</li>
+        <li id="li">yourtab</li>
+        <li id="li">histab</li>
+    </ul>
+    <button id="appendbtn">Append</button>
+    <button id="prependbtn">Prepend</button>
+</div>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="../JS/index.js"></script>
