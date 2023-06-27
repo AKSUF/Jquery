@@ -21,8 +21,8 @@
             width: 30%;
         }
         #box {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background-color: #eaeaea;
   border: 2px solid #333;
 }
@@ -36,11 +36,15 @@
         
     </div>
 
-    <div id="box"></div>
+    <div id="box">
+<h1>Test box</h1>
+<p>Lorem ipsum dolor sit amet</p>
+<input type="submit" value="Test Button"/>
+    </div>
 <br><br>
-<input type="text" id="inputbox">
 
-<h2></h2>
+<h3></h3>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="../JS/index.js"></script>
