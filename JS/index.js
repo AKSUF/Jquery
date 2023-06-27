@@ -1,15 +1,9 @@
 $(document).ready(function() {
-    $("#append").click(function() {
-        $("#box").append("<h2>Yahoo Baba<h2>")
-    })
-    $("#prepend").click(function() {
-        $("#box").prepend("<h2>This is only a title<h2>")
+    $('#appendbtn').click(function() {
+        $('#box').after('<h3>After the box</h3>');
+    });
+    $('#prependbtn').click(function() {
+        $('#box').before('<h3>Before the box</h3>');
     })
 
-    $("#appendbtn").click(function() {
-        $("#ul").append("<li>New row</li>")
-    })
-    $("#prependbtn").click(function() {
-        $("#ul").prepend("<li>The heading</li>")
-    });
 });
