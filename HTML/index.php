@@ -31,20 +31,14 @@
 </head>
 
 <body>
-    <h1>Jquery Filtering Methods</h1>
-    <div id="result">
-        
-    </div>
-
-    <div id="box">
-<h1>Test box</h1>
-<p>Lorem ipsum dolor sit amet</p>
-<input type="submit" value="Test Button"/>
-    </div>
+<h1>Jquery Filtering Methods</h1>
+<div id="box">
+<a href="https://github.com/AKSUF/Jquery.git" id="result">Yahoobaba.com</a>
 <br><br>
-
-<h3></h3>
-
+<a href="https://github.com/AKSUF/Jquery.git">Yahoobaba web</a>
+</div>
+<br><br>
+<h2></h2>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="../JS/index.js"></script>

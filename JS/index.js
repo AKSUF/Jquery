@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    $('#box').on("click", function() {
-        $('h3').html("Target Element" + event.target);
-        $('h3').html("Target Element" + event.target.innerHTML);
+    $('#result').on("click", function(event) {
+        event.preventDefault();
+        var a = event.isDefaultPrevented();
+        $('h2').html(a);
     })
 });
