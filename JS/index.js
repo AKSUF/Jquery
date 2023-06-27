@@ -1,9 +1,10 @@
 $(document).ready(function() {
-    $('#appendbtn').click(function() {
-        $('#box').after('<h3>After the box</h3>');
+    $('#emptybtn').click(function() {
+        $('#box h2').empty();
     });
-    $('#prependbtn').click(function() {
-        $('#box').before('<h3>Before the box</h3>');
-    })
+
+    $('#removebtn').click(function() {
+        $('#box h2').remove('');
+    });
 
 });

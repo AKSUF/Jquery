@@ -17,11 +17,12 @@
 <body>
 <div class="box" id="box">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quas nisi soluta voluptas, dolor itaque dicta vel, a voluptatem voluptates atque reiciendis sequi blanditiis nam nostrum qui nesciunt veritatis assumenda.</p>
-    </div>
+        <h2>Hi how you do work</h2>
+</div>
     <br>
  
-    <button id="appendbtn">Append</button>
-    <button id="prependbtn">Prepend</button>
+    <button id="emptybtn">empty</button>
+    <button id="removebtn">remove</button>
 
 
 
