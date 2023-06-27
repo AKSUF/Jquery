@@ -1,10 +1,11 @@
 $(document).ready(function() {
     $('#emptybtn').click(function() {
-        $('#box h2').empty();
+        $('<h3>Append to:Yahoo Baba</h3>').appendTo('#box');
+
     });
 
     $('#removebtn').click(function() {
-        $('#box h2').remove('');
+        $('<h3>Prepend to:Yahoo Baba</h3>').prependTo('#box');
     });
 
 });
