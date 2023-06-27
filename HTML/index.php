@@ -27,9 +27,10 @@
 <div class="box2" id="box2"></div>
     </div>
   <div class="topic"></div>
-    <button id="hideBtn">Hide</button>
-    <button id="showBtn">Show</button>
-    <button id="toggleBtn">ToggleButton</button>
+    <button id="fadeoutBtn">FadeOut</button>
+    <button id="fadeinBtn">FadeIn</button>
+    <button id="fadetoggleBtn">FadeToggle</button>
+    <button id="fadetoBtn">FadeTo</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>
 </body>

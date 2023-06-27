@@ -1,16 +1,23 @@
 $(document).ready(function() {
-    $("#hideBtn").click(function() {
-        // $('#box p').hide('slow');
-        $("#box p").hide(10000, function() {
-            $(".box2").html("<h2>The text is hinded</h2>");
+    $('#fadeoutBtn').click(function() {
+        $('#box').fadeOut(1000, function() {
+            $('#box2').html('<h1>box is fade in</h1>');
         });
     });
 
-    $("#showBtn").click(function() {
-        $("#box p").show("slow");
+    $('#fadeinBtn').click(function() {
+        $('#box').fadeIn(1000, function() {
+            $('#box2').html('<h1>box is fade out</h2>');
+        });
     });
-
-    $("#toggleBtn").click(function() {
-        $("#box p").toggle("slow");
+    $('#fadetoggleBtn').click(function() {
+        $('#box').fadeToggle(1000, function() {
+            $('#box2').html('<h1>box is toggle</h1>');
+        });
+    });
+    $('#fadetoBtn').click(function() {
+        $('#box').fadeTo(1000, 0.5, function() {
+            $('#box2').html('<h1>boxis fade to</h1>');
+        });
     });
 });
