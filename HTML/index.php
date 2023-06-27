@@ -25,8 +25,8 @@
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
    
-    <button id="width">Width</button>
-    <button id="height">Hight</button>
+    <button id="positionBtn">Position</button>
+    <button id="offsetBtn">Offset</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>
 </body>
