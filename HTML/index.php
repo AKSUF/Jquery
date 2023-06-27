@@ -26,7 +26,7 @@
 </div>
 <ul>
 <li>Orange</li>
-<li>Apple</li>
+<li><span>Apple</span></li>
 <li>Banana</li>
 <li>Grapes</li>
 <li>Coconut</li>
@@ -34,7 +34,7 @@
 
 <div id="second">
     <p id="test">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum <span class="test">Lorem, ipsum dolor.</span> dolor sit amet consectetur adipisicing elit.
     </p>
     <p>Lorem ipsum dolor sit amet consectetur.</p>
 </div>
