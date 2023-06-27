@@ -19,14 +19,14 @@
 </head>
 <body>
     <div class="box" id="box" >
-       
+       <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
    
-    <button id="wrapBtn">Wrap</button>
-    <button id="unwrapBtn">UnWrap</button>
+    <button id="wrapallBtn">WrapAll</button>
+    <button id="unwrapinnerBtn">WrapInner</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../JS/index.js"></script>
 </body>
